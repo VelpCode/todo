@@ -6,6 +6,10 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { authActions } from "../../store";
 import { useNavigate } from "react-router-dom";
+import { GiBookCover } from "react-icons/gi";
+
+
+
 const Navbar = () => {
   const history = useNavigate();
   const isLoggedIn = useSelector((state) => state.isLoggedIn);
@@ -19,9 +23,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            <RiContactsBook2Fill /> todo
-          </Link>
+        <Link className="navbar-brand" to="#"><b><RiContactsBook2Fill/> &nbsp;∀ctivities</b></Link>
 
           <button
             className="navbar-toggler"

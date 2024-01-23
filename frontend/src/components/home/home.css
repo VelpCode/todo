@@ -1,15 +1,129 @@
+
+
 .home {
-  width: 100%;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
+
+.continent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .home h1 {
   font-size: 60px;
+  text-align: center;
 }
-.home-btn {
-  border: none;
-  outline: none;
-  background-color: rgba(240, 0, 0, 0.87);
-  border-radius: 5px;
-  color: white !important;
+
+.icon-vertical-adjust {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+button {
+  background-color: #7562FF;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
   font-weight: bold;
+  border: none;
+}
+
+.continent p {
+
+  text-align: center;
+
+}
+
+.dudebutton {
+
+  background-color: #7562FF;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+
+.sport {
+  position: absolute;
+  height: 13vh;
+  rotate: 4deg;
+  top: 50%; /* Adjust these values */
+  left: 1%; 
+}
+
+.block {
+  position: absolute;
+  height: 13vh;
+  rotate: -10deg;
+  top: 20%; /* Adjust these values */
+  right: 1%;
+}
+
+@media (max-width: 768px) {
+  .sport {
+      top: 5%;
+      left: 15%;
+  }
+
+  .block {
+      top: 40%;
+      left: 50%;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .sport, .block {
+      display: none; /* Hide SVGs on very small screens */
+  }
+}
+
+/* Even smaller screens, like mobile in portrait mode */
+@media (max-width: 320px) {
+  .sport, .block {
+      display: none; /* Continue hiding SVGs */
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .sport {
+      top: 8%;
+      left: 18%;
+  }
+
+  .block {
+      top: 45%;
+      left: 55%;
+  }
+}
+
+@media (max-width: 280px) {
+
+  .home h1 {
+      font-size: 20px;
+  }
+
+  .home p {
+      font-size: 10px;
+  }
+
+  .sport {
+      top: 8%;
+      left: 18%;
+  }
+
+  .block {
+      top: 45%;
+      left: 55%;
+  }
 }

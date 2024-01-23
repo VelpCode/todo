@@ -1,3 +1,11 @@
+
+
+h6 {
+  margin-left: 10px;
+}
+
 .footer {
-  background-color: rgb(253, 237, 255);
+  background-color: #7562FF;
+  color: white;
+  padding: 50px;
 }
