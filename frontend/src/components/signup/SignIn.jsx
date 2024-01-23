@@ -22,7 +22,7 @@ const SignIn = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `${window.location.origin}/api/v1/signin`,
+        "http://localhost:1000/api/v1/signin",
         Inputs
       );
       console.log(response.data);
@@ -39,6 +39,7 @@ const SignIn = () => {
       console.error("An error occurred:", error);
     }
   };
+
 
   return (
     <div>
