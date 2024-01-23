@@ -4,10 +4,9 @@ const About = () => {
   return (
     <div className="about d-flex justify-content-center align-items-center">
       <div className="container">
-        <div className="d-flex">
+        <div className="ladoo">
           <h1>About Us</h1>
         </div>
-
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ad? Non
           animi facere vero nostrum qui repudiandae, nihil recusandae amet

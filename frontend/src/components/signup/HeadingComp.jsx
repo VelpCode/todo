@@ -4,7 +4,7 @@ const HeadingComp = ({ first, second }) => {
   return (
     <div>
       <h1 className="text-center sign-up-heading">
-        {first} <br /> {second}
+        {first} {second}
       </h1>
     </div>
   );

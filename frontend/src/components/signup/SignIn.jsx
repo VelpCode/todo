@@ -45,12 +45,10 @@ const SignIn = () => {
     <div>
       <div className="signup">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4 column col-left d-none d-lg-flex justify-content-center align-items-center">
+            <div className="contdist">
               <HeadingComp first="Sign" second="In" />
-            </div>
-            <div className="col-lg-8 column d-flex justify-content-center align-items-center ">
-              <div className="d-flex flex-column  w-100 p-3">
+            <div className="justify-content-center align-items-center ">
+              <div className="input-sec d-flex flex-column p-3">
                 <input
                   className="p-2  my-3 input-signup"
                   type="email"

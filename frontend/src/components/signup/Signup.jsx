@@ -36,9 +36,10 @@ const Signup = () => {
   return (
     <div className="signup">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-8 column d-flex justify-content-center align-items-center ">
-            <div className="d-flex flex-column  w-100 p-3">
+        <div className="contdist">
+          <HeadingComp first="Sign" second="Up" />
+          <div className="justify-content-center align-items-center ">
+            <div className="input-sec d-flex flex-column p-3">
               <input
                 className="p-2  my-3 input-signup"
                 type="email"
@@ -68,9 +69,6 @@ const Signup = () => {
                 Sign Up
               </button>
             </div>
-          </div>
-          <div className=" col-lg-4 column col-left d-lg-flex justify-content-center align-items-center  d-none">
-            <HeadingComp first="Sign" second="Up" />
           </div>
         </div>
       </div>

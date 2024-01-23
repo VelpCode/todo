@@ -1,22 +1,35 @@
 .signup {
   width: 100%;
-  height: 100vh;
 }
 .column {
   height: 100vh;
 }
 .input-signup {
   outline: none;
+  border-radius: 10px;
+  border: 1px solid lightgray
 }
 .sign-up-heading {
-  font-size: 100px;
-  color: rgba(240, 0, 0, 0.87);
+  font-size: 50px;
+  color: black;
   opacity: 0.8;
 }
 
 .btn-signup {
-  background-color: rgba(240, 0, 0, 0.87);
   color: white;
   outline: none;
   border: none;
+}
+
+
+.input-sec {
+  width: 50vh;
+}
+
+.contdist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
 }
