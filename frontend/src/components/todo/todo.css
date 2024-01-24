@@ -18,7 +18,9 @@
   display: none;
 }
 .todo-card {
-  border: 1px solid black;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .todo-card-p {
   text-align: justify;
@@ -28,7 +30,7 @@
   font-size: 18px;
 }
 .del {
-  color: rgba(240, 0, 0, 0.87);
+  color: #7562FF;
 }
 .card-icon-head {
   cursor: pointer;
@@ -51,4 +53,13 @@
 
 .update {
   height: 100%;
+}
+
+
+.buttadd {
+  padding: 10px;
+}
+
+.buttme {
+  padding: 10px;
 }

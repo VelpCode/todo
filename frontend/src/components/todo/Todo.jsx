@@ -87,7 +87,7 @@ const Todo = () => {
           <div className="d-flex flex-column todo-inputs-div w-lg-50 w-100 p-1">
             <input
               type="text"
-              placeholder="TITLE"
+              placeholder="Activity Name"
               className="my-2 p-2 todo-inputs"
               onClick={show}
               name="title"
@@ -97,14 +97,14 @@ const Todo = () => {
             <textarea
               id="textarea"
               type="text"
-              placeholder="BODY"
+              placeholder="Tasks"
               name="body"
               className=" p-2 todo-inputs"
               value={Inputs.body}
               onChange={change}
             />
           </div>
-          <div className=" w-50 w-100 d-flex justify-content-end my-3">
+          <div className="w-100 d-flex justify-content-end my-3">
             <button className="home-btn px-2 py-1" onClick={submit}>
               Add
             </button>

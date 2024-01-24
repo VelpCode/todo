@@ -27,7 +27,7 @@ const TodoCards = ({
           <GrDocumentUpdate className="card-icons" /> Update
         </div>
         <div
-          className="d-flex justify-content-center align-items-center card-icon-head  px-2 py-1 text-danger"
+          className="d-flex justify-content-center align-items-center card-icon-head  px-2 py-1"
           onClick={() => {
             delid(id);
           }}

@@ -33,3 +33,7 @@
   flex-direction: column;
   min-height: 80vh;
 }
+
+.faunt {
+  font-weight: bold;
+}

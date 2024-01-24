@@ -40,6 +40,12 @@ button {
 
 }
 
+.lakshmi {
+  font-size: 18px;
+  color: #888888;
+  margin-top: 5px;
+}
+
 .dudebutton {
 
   background-color: #7562FF;
@@ -126,4 +132,8 @@ button {
       top: 45%;
       left: 55%;
   }
+}
+
+.shiva {
+  font-weight: bold;
 }
